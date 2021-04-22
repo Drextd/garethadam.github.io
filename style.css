@@ -1,4 +1,63 @@
-* {
-    padding: none;
-    margin: none;
+/* Global Settings */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    list-style: none;
 }
+
+ /* Defined CSS */
+
+body{
+    background-color: #535353;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: url("../images/cardBackground.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#topBar{
+    background-color: #3d3c3c;
+    opacity: 85%;
+    width: 100vw;
+}
+
+#topBarButtonContainer{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#topBarButtonContainer > ul > li{
+    color: #FFFFFF;
+    display: inline-flex;
+    text-align: center;
+    padding: 25px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+#cardDisplayContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#bottomBar{
+    background-color: #3d3c3c;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0 25px 0;
+    opacity: 85%;
+}
+
+/* Card CSS */
+
+
+

@@ -1,1 +1,12 @@
-// WIP
+
+const cardMarkup = `
+    
+`;
+
+
+
+function loadHomeCard(){
+
+    
+
+}

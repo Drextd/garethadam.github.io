@@ -1,16 +1,32 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Gareth Adam Portfolio</title>
-  <link href="style.css" rel="stylesheet" />
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gareth Adam Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
-<body>
 
+<body onload="loadHomeCard()">
 
+    <nav id="topBar"> 
+        <div id="topBarButtonContainer">
+            <ul>
+                <li id="home">Home</li>
+                <li id="about">About</li>
+                <li id="github">Github</li>
+                <li id="resume">Resume</li>
+            </ul>
+        </div>
+    </nav>
 
+    <section id="cardDisplayContainer"></section>
 
+    <section id="bottomBar">Created by Gareth Adam - 2021</section>
 
   <script src="script.js"></script>
+
 </body>
+
 </html>
