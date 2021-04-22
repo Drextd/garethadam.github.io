@@ -72,6 +72,7 @@ body{
 
 .leftSection, .rightSection{
     height: 100%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -79,18 +80,48 @@ body{
 }
 
 #leftPictureContainer{
-    width: 80%;
-    flex-grow: 3;
+    width: 50%;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+}
+
+#leftPicture{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 7.5px solid #FFFFFF;
+    border-radius: 50%;
+    background: url("https://drextd.github.io/garethadam.github.io/images/personalPicture.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#leftPicture::before{
+    content: "";
+    display: inline-block;
+    padding-top: 100%;
 }
 
 #leftPictureTitle{
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-grow: 1;
+    color: #FFFFFF;
+    font-size: 3em;
+    text-align: center;
 }
 
 #leftExtraInfo{
     width: 80%;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 3em;
+    text-align: center;
 }
 
 .rightElementStyling{
