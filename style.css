@@ -46,6 +46,7 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
 }
 
 #bottomBar{
@@ -55,9 +56,45 @@ body{
     text-align: center;
     padding: 25px 0 25px 0;
     opacity: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Card CSS */
 
+.cardLayoutContainer{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+}
 
+.leftSection, .rightSection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#leftPictureContainer{
+    width: 80%;
+    flex-grow: 3;
+}
+
+#leftPictureTitle{
+    width: 80%;
+    flex-grow: 1;
+}
+
+#leftExtraInfo{
+    width: 80%;
+    flex-grow: 1;
+}
+
+.rightElementStyling{
+    width: 80%;
+    flex-grow: 1;
+}
 
