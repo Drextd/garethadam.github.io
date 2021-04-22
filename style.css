@@ -16,7 +16,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background: url("../images/cardBackground.jpg") no-repeat center;
+    background: url("https://drextd.github.io/garethadam.github.io/images/mainBackground.jpg") no-repeat center;
     background-size: cover;
 }
 
