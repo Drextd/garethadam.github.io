@@ -133,17 +133,47 @@ body{
     justify-content: center;
     flex-grow: 1;
     color: #FFFFFF;
-    font-size: 1.5em;
+    font-size: 1.75em;
     text-align: center;
-    flex-wrap: wrap;
 }
-
-
 
 .rightElementStyling > a{
     font-size: 1em;
-    padding: 0.4em;
-    flex-wrap: wrap;
+    padding: 0.2em;
+    justify-content: center;
 }
+
+#leftExtraInfo > a{
+    font-size: 0.8em;
+}
+
+#rightAreaMiddle > ul{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0.5em 0;
+}
+
+#rightAreaMiddle > ul > li{
+    min-width: 50%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rightAreaMiddle > ul > li > a{
+    display: flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
 
 

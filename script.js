@@ -74,6 +74,35 @@ function popluateRightCard_Github(){
 }
 
 function popluateRightCard_Resume(){
-    // WIP
+    document.getElementById('leftPicture').style.background = '#FFFFFF url("../images/resumePicture.png") no-repeat center'
+    document.getElementById('leftPicture').style.backgroundSize = 'cover'
+    document.getElementById('leftPictureTitle').textContent = 'Resume and Contact'
+    document.getElementById('leftExtraInfo').innerHTML = `Email
+                                                        <a href="mailto:garethadam@live.com.au">garethadam@live.com.au</a>
+                                                        `
+    document.getElementById('rightAreaTop').innerHTML = `Resume
+                                                        <a href="https://drive.google.com/file/d/1Zbr_aK7ifeTWd9ADqn_9BHDzyZ7lrBrI/view?usp=sharing">Google Drive: CV - Gareth Adam</a>
+                                                        `                 
+    document.getElementById('rightAreaMiddle').innerHTML = `Social Links
+                                                            <ul>
+                                                                <li id='facebookIcon'></li>
+                                                                <li><a href="https://www.facebook.com/gareth.adam.5/">Facebook</a></li>
+                                                            </ul>
+                                                            <ul>
+                                                                <li id='discordIcon'></li>
+                                                                <li><a>Discord - Gression#0076 </a></li>
+                                                            </ul>
+                                                            <ul>
+                                                                <li id='battleNetIcon'></li>
+                                                                <li><a>Battle.Net - Drextd#6654 </a></li>
+                                                            </ul>
+                                                            `
+    document.getElementById('facebookIcon').style.background = 'url("https://drextd.github.io/garethadam.github.io/images/facebookIcon.png") no-repeat center'
+    document.getElementById('facebookIcon').style.backgroundSize = 'contain'
+    document.getElementById('discordIcon').style.background = 'url("https://drextd.github.io/garethadam.github.io/images/discordIcon.png") no-repeat center'
+    document.getElementById('discordIcon').style.backgroundSize = 'contain'    
+    document.getElementById('battleNetIcon').style.background = 'url("https://drextd.github.io/garethadam.github.io/images/battleNetIcon.png") no-repeat center'
+    document.getElementById('battleNetIcon').style.backgroundSize = 'contain'          
+    document.getElementById('rightAreaBottom').innerHTML = ''                 
 }
 
