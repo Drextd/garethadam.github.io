@@ -110,7 +110,7 @@ body{
     flex-grow: 1;
     color: #FFFFFF;
     font-size: 3em;
-    text-align: left;
+    text-align: center;
 }
 
 #leftExtraInfo{
@@ -121,7 +121,7 @@ body{
     justify-content: center;
     color: #FFFFFF;
     font-size: 3em;
-    text-align: left;
+    text-align: center;
 }
 
 .rightElementStyling{
@@ -132,7 +132,7 @@ body{
     flex-grow: 1;
     color: #FFFFFF;
     font-size: 1.5em;
-    text-align: right;
+    text-align: center;
     flex-wrap: wrap;
 }
 
