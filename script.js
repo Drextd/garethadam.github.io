@@ -74,7 +74,7 @@ function popluateRightCard_Github(){
 }
 
 function popluateRightCard_Resume(){
-    document.getElementById('leftPicture').style.background = '#FFFFFF url("../images/resumePicture.png") no-repeat center'
+    document.getElementById('leftPicture').style.background = '#FFFFFF url("https://drextd.github.io/garethadam.github.io/images/resumePicture.png") no-repeat center'
     document.getElementById('leftPicture').style.backgroundSize = 'cover'
     document.getElementById('leftPictureTitle').textContent = 'Resume and Contact'
     document.getElementById('leftExtraInfo').innerHTML = `Email
