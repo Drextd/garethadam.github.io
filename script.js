@@ -52,7 +52,7 @@ function popluateRightCard_About(){
 }
 
 function popluateRightCard_Github(){
-    document.getElementById('leftPicture').style.background = '#FFFFFF url("../images/githubLogo.png") no-repeat center'
+    document.getElementById('leftPicture').style.background = '#FFFFFF url("https://drextd.github.io/garethadam.github.io/images/githubLogo.png") no-repeat center'
     document.getElementById('leftPicture').style.backgroundSize = 'cover'
     document.getElementById('leftPictureTitle').textContent = 'Github Links'
     document.getElementById('leftExtraInfo').textContent = 'Code examples / Previous projects'
