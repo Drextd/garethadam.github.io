@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+a, a:visited, a:hover, a:active{
+    color: #ff7f50;
+}
+
  /* Defined CSS */
 
 body{
@@ -37,7 +41,7 @@ body{
     color: #FFFFFF;
     display: inline-flex;
     text-align: center;
-    padding: 25px;
+    padding: 1em;
     cursor: pointer;
     font-size: 1.5em;
 }
@@ -90,10 +94,8 @@ body{
     position: relative;
     width: 100%;
     height: auto;
-    border: 7.5px solid #FFFFFF;
+    border: 1em solid #FFFFFF;
     border-radius: 50%;
-    background: url("https://drextd.github.io/garethadam.github.io/images/personalPicture.jpg") no-repeat center;
-    background-size: cover;
 }
 
 #leftPicture::before{
@@ -135,4 +137,13 @@ body{
     text-align: center;
     flex-wrap: wrap;
 }
+
+
+
+.rightElementStyling > a{
+    font-size: 1em;
+    padding: 0.4em;
+    flex-wrap: wrap;
+}
+
 
