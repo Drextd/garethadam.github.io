@@ -67,6 +67,11 @@ body{
 
 /* Card CSS */
 
+#itemLeft, #itemRight{
+    animation-name: landingAnimation;
+    animation-duration: 2s;
+}
+
 .cardLayoutContainer{
     display: flex;
     flex-direction: row;
@@ -169,6 +174,16 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+/* Animations */
+
+@keyframes landingAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
 
 
 

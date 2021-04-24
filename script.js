@@ -2,7 +2,7 @@
 const cardMarkup = `
     <div class="cardLayoutContainer">
 
-        <section class="leftSection">
+        <section id="itemLeft" class="leftSection">
             <div id="leftPictureContainer">
                 <div id="leftPicture"></div>
             </div>
@@ -10,7 +10,7 @@ const cardMarkup = `
             <div id="leftExtraInfo"></div> 
         </section>
 
-        <section class="rightSection">
+        <section id="itemRight" class="rightSection">
             <div class="rightElementStyling" id="rightAreaTop"></div>
             <div class="rightElementStyling" id="rightAreaMiddle"></div>
             <div class="rightElementStyling" id="rightAreaBottom"></div>
@@ -24,9 +24,13 @@ window.addEventListener('DOMContentLoaded', function (){
 })
 
 document.getElementById('home').addEventListener('click', popluateRightCard_Home)
+document.getElementById('home').addEventListener('click', animationWrapper)
 document.getElementById('about').addEventListener('click', popluateRightCard_About)
+document.getElementById('about').addEventListener('click', animationWrapper)
 document.getElementById('github').addEventListener('click', popluateRightCard_Github)
+document.getElementById('github').addEventListener('click', animationWrapper)
 document.getElementById('resume').addEventListener('click', popluateRightCard_Resume)
+document.getElementById('resume').addEventListener('click', animationWrapper)
 
 function popluateRightCard_Home(){
     document.getElementById('leftPicture').style.background = '#FFFFFF url("https://drextd.github.io/garethadam.github.io/images/personalPicture.jpg") no-repeat center'
@@ -48,7 +52,7 @@ function popluateRightCard_About(){
                                                             This position opened up the world to what it means to work in a larger team and gave me first hand experience working within a Monolithic system.
                                                             Additionally has granted me a unique perspective of being able on both sides of the fence with supporting applications and developing them.`
     document.getElementById('rightAreaBottom').textContent = `My interests lie within problem solving, running on the treadmill of always learning, curiousity to dive deeper that what is required.
-                                                            Lastly, I spend my free time with my loving family and being an avid gamer (video and tabletop).`
+                                                            Lastly, I spend my free time with my loving family and being an avid gamer (video and tabletop).`                                                       
 }
 
 function popluateRightCard_Github(){
@@ -106,3 +110,34 @@ function popluateRightCard_Resume(){
     document.getElementById('rightAreaBottom').innerHTML = ''                 
 }
 
+
+function leftAnimation(){
+    document.getElementById('itemLeft').animate([
+        {
+            opacity: 0,
+            transform: 'translateX(-20%)'
+        },
+        {
+        opacity: 1,
+        transform: 'translateX(0%)'
+        }
+    ], 1000)
+}
+
+function rightAnimation(){
+    document.getElementById('itemRight').animate([
+        {
+            opacity: 0,
+            transform: 'translateX(20%)'
+        },
+        {
+        opacity: 1,
+        transform: 'translateX(0%)'
+        }
+    ], 1000)
+}
+
+function animationWrapper(){
+    leftAnimation()
+    rightAnimation()
+}
