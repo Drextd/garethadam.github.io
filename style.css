@@ -44,6 +44,13 @@ body{
     padding: 1em;
     cursor: pointer;
     font-size: 1.5em;
+    transition: 0.45s;
+}
+
+#topBarButtonContainer > ul > li:hover{
+    background-color: #FFFFFF;
+    color: #3d3c3c;
+    
 }
 
 #cardDisplayContainer{
@@ -181,6 +188,8 @@ body{
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+
 
 
 
