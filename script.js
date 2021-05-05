@@ -39,7 +39,7 @@ function popluateRightCard_Home(){
     document.getElementById('leftExtraInfo').textContent = 'Web Developer, I.T Professional'
     document.getElementById('rightAreaTop').textContent = 'Welcome to my Portfolio.'
     document.getElementById('rightAreaMiddle').textContent = 'Most recent position held was a Graduate Support Engineer of 2 years to get my foot in the door into the I.T industry.'
-    document.getElementById('rightAreaBottom').textContent = 'Now seeking to take the next step in my career as a Junior Web Developer / Software Engineer.'
+    document.getElementById('rightAreaBottom').textContent = 'Now seeking to take the next step in my career as a Junior Web Developer / Software Engineer. Currently working towards my AWS Cloud Practitioner certification.'
 }
 
 function popluateRightCard_About(){
