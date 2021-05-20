@@ -71,6 +71,8 @@ function popluateRightCard_Github(){
                                                             <a href="https://github.com/Drextd/socialmedia">socialmedia - replicated</a>
                                                             <a href="https://github.com/Drextd/weatherApp">weatherApp - Public API (Dark Sky)</a>
                                                             <a href="https://github.com/Drextd/getthatrecipe">getthatrecipe - Public API (Edamam)</a>
+                                                            The Odin Project
+                                                            <a href="https://github.com/Drextd/theOdinProject/tree/main/full_stack_javascript">The Odin Project - Full Stack Javascript</a>
                                                             `
     document.getElementById('rightAreaBottom').textContent = 'The primary focus has been with Javascript as this is my preferred language of choice and my most proficient.'
 
